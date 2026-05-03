@@ -32,7 +32,7 @@ cd auto-dependency-bot
 
 ```bash
 pip install -r requirements.txt
-```
+``` 
 
 ### 3. Configure
 
