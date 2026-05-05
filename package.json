@@ -1,0 +1,11 @@
+{
+  "name": "auto-dependency-bot",
+  "version": "1.0.0",
+  "description": "Auto Dependency Update Bot — Node.js dependency manifest",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No Node.js tests configured\" && exit 0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
