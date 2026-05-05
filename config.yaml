@@ -1,0 +1,30 @@
+# Auto Dependency Update Bot — Project Configuration
+# All values here can be overridden by environment variables.
+
+# Which ecosystems to scan
+scan_pip: true
+scan_npm: true
+
+# Set to true to preview updates without writing files or creating PRs
+dry_run: false
+
+log_level: INFO
+
+update_rules:
+  # Whether to allow major (breaking) version updates
+  allow_major: false
+
+  # Whether to allow minor feature updates
+  allow_minor: true
+
+  # Whether to allow patch/bugfix updates
+  allow_patch: true
+
+  # Packages to never update (by exact name)
+  skip_packages:
+    # - some-legacy-package
+    # - another-frozen-package
+
+  # Packages pinned to a specific version (will not be updated regardless of rules)
+  pin_packages:
+    # my-package: "1.2.3"
