@@ -1,0 +1,11 @@
+# Core dependencies
+requests
+packaging
+PyYAML
+
+# Testing
+pytest
+pytest-cov
+
+# Optional: AI-powered changelog summaries (uncomment if using OpenAI)
+# openai
