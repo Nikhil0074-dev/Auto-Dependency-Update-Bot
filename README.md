@@ -1,5 +1,5 @@
 #  Auto Dependency Update Bot
-
+---
 A production-ready DevOps automation tool that scans your project dependencies weekly, creates a Pull Request with all updates, and optionally notifies your team via Slack or email.
  
 ---
